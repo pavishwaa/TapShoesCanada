@@ -11,8 +11,7 @@ namespace TapShoesCanada.Data
 	{
 		public UserContext(DbContextOptions<UserContext> options) : base(options) 
 		{}
-
-		//public UserContext() : base("Tap_Shoes_Canada_DB") { }
+		
 
 		public DbSet<User> Users { get; set; }
 
